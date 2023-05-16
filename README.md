@@ -1,4 +1,4 @@
-# fix_broken_json
+# fix truncated json
 Use python script to repair broken python files
 
 simply run python json_untruncate.py --file filename.json
