@@ -192,7 +192,7 @@ def untruncate_json(json: str) -> str:
     return "".join(result)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="A simple script to demonstrate argparse usage")
+    parser = argparse.ArgumentParser(description="A simple script un_truncate json files")
     parser.add_argument("-n", "--file", type=str, required=True, help="Json File to repair")
     
     args = parser.parse_args()
